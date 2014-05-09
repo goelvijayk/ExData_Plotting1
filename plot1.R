@@ -14,5 +14,5 @@ hpc3$datetime <- as.POSIXct(strptime(hpc3[,11], format = "%d/%m/%Y %H:%M:%S"))
 
 #chart1
 png(file = "plot1.png", width = 480, height = 480, units = "px")
-with(hpc3, hist(hpc3$Global_active_power, xlab = "Global Active Power (kilowatts)", col="red", main="Global Active Power"))
+with(hpc3, hist(hpc3$Global_active_power, xlab = "Global Active Power (kilowatts)", col="red", main="Global Active Power", bg="transparent"))
 dev.off()
