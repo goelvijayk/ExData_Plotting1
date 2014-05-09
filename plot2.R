@@ -23,6 +23,7 @@ with(hpc3,
        xlab="",
        col="black", 
        type = "l"
+       , bg="transparent"
      )
 )
 

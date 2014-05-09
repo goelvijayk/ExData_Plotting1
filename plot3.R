@@ -34,7 +34,7 @@ with(hpc3,
        #xlab="",
        col="red"
        #,type = "l"
-       #, bg= "transparent"
+       , bg= "transparent"
      )
 )
 with(hpc3, 
@@ -45,7 +45,7 @@ with(hpc3,
        #xlab="",
        col="blue" 
        #,type = "l"
-       #, bg= "transparent"
+       , bg= "transparent"
      )
 )
 legend("topright", lty=1, col=c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))

@@ -26,6 +26,7 @@ with(hpc3, {
     xlab="",
     col="black", 
     type = "l"
+    , bg="transparent"
   )
   
   plot(
@@ -35,6 +36,7 @@ with(hpc3, {
     xlab="datetime",
     col="black"
     ,type = "l"
+    , bg="transparent"
   )
   
   
@@ -50,20 +52,14 @@ with(hpc3, {
   lines(
     hpc3$datetime, 
     hpc3$Sub_metering_2, 
-    #ylab = "Global Active Power (kilowatts)", 
-    #xlab="",
     col="red"
-    #,type = "l"
-    #, bg= "transparent"
+    , bg= "transparent"
   )
   lines(
     hpc3$datetime, 
     hpc3$Sub_metering_3, 
-    #ylab = "Global Active Power (kilowatts)", 
-    #xlab="",
     col="blue" 
-    #,type = "l"
-    #, bg= "transparent"
+    , bg= "transparent"
   )
   legend("topright", 
          lty=1, 
@@ -79,6 +75,7 @@ with(hpc3, {
     xlab="datetime",
     col="black"
     ,type = "l"
+    , bg="transparent"
   )
 })
 dev.off()
